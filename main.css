@@ -1,18 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background: #000; /* Set background color to black */
 }
 
 p {
-    font-size: 8px;
-    line-height: 8px;
-    text-align: justify;
+    font-size: 8px; /* Set font size */
+    line-height: 8px; /* Set line height */
+    text-align: justify; /* Justify text alignment */
     margin: 0; /* Remove default margin */
     height: 100vh; /* Set height to full viewport height */
     width: 100vw; /* Set width to full viewport width */
     background: url(a.jpg) no-repeat center center; /* Center the image */
-    background-size: cover; /* Cover the entire area */
+    background-size: cover; /* Cover the entire area, may crop the image */
     background-attachment: fixed; /* Keep the background fixed */
     -webkit-background-clip: text; /* Clip background to text */
     -webkit-text-fill-color: rgba(225, 225, 255, 0); /* Make text transparent */
