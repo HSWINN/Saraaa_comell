@@ -1,60 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Music Example</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: #000; /* Set background color to black */
-        }
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background: #000; /* Set background color to black */
+}
 
-        p {
-            font-size: 8px; /* Set font size */
-            line-height: 8px; /* Set line height */
-            text-align: justify; /* Justify text alignment */
-            margin: 0; /* Remove default margin */
-            height: 100vh; /* Set height to full viewport height */
-            width: 100vw; /* Set width to full viewport width */
-            background: url(a.jpg) no-repeat center center; /* Center the image */
-            background-size: cover; /* Cover the entire area, may crop the image */
-            background-attachment: fixed; /* Keep the background fixed */
-            -webkit-background-clip: text; /* Clip background to text */
-            -webkit-text-fill-color: rgba(225, 225, 255, 0); /* Make text transparent */
-        }
-
-        /* Additional styles for 9:16 aspect ratio */
-        @media (max-aspect-ratio: 9/16) {
-            p {
-                background-size: cover; /* Ensure the image covers the area */
-            }
-        }
-
-        /* Additional styles for mobile responsiveness */
-        @media (max-width: 600px) {
-            p {
-                font-size: 12px; /* Adjust font size for better readability on mobile */
-                line-height: 12px; /* Adjust line height for better readability on mobile */
-                background-attachment: scroll; /* Change to scroll for better performance on mobile */
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <p>Your text goes here.</p>
-
-    <audio id="backgroundMusic" src="h.mp3" loop muted></audio>
-
-    <script>
-        // Play the audio when the page loads
-        window.onload = function() {
-            var audio = document.getElementById("backgroundMusic");
-            audio.play();
-        };
-    </script>
-
-</body>
-</html>
+p {
+    font-size: 8px;
+    line-height: 8px;
+    text-align: justify;
+    font-size: 8px; /* Set font size */
+    line-height: 8px; /* Set line height */
+    text-align: justify; /* Justify text alignment */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set height to full viewport height */
+    width: 100vw; /* Set width to full viewport width */
+    background: url(a.jpg) no-repeat center center; /* Center the image */
+    background-size: cover; /* Cover the entire area */
+    background-size: cover; /* Cover the entire area, may crop the image */
+    background-attachment: fixed; /* Keep the background fixed */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: rgba(225, 225, 255, 0); /* Make text transparent */
