@@ -1,19 +1,18 @@
-body{
-	margin:0;
-	padding: 0;
-	background:#000;
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
 }
 
 p {
-	font-size:8px;
-	line-height:8px;
-	text-align:justify;
-	-webkit-background-size:cover;
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background: url(photo_2024-12-11_20-29-00.jpg) no-repeat center/cover;
-	background-attachment: fixed;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: rgb(225, 225, 255, 0);
+    font-size: 8px;
+    line-height: 8px;
+    text-align: justify;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set height to full viewport height */
+    background: url(photo_2024-12-11_20-29-00.jpg) no-repeat center center; /* Center the image */
+    background-size: cover; /* Cover the entire area */
+    background-attachment: fixed; /* Keep the background fixed */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: rgba(225, 225, 255, 0); /* Make text transparent */
 }
