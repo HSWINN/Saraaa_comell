@@ -18,6 +18,13 @@ p {
     -webkit-text-fill-color: rgba(225, 225, 255, 0); /* Make text transparent */
 }
 
+/* Additional styles for 16:9 aspect ratio */
+@media (aspect-ratio: 16/9) {
+    p {
+        background-size: cover; /* Ensure the image covers the area */
+    }
+}
+
 /* Additional styles for mobile responsiveness */
 @media (max-width: 600px) {
     p {
