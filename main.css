@@ -11,7 +11,7 @@ p {
     margin: 0; /* Remove default margin */
     height: 100vh; /* Set height to full viewport height */
     width: 100vw; /* Set width to full viewport width */
-    background: url(photo_2024-12-11_20-29-00.jpg) no-repeat center center; /* Center the image */
+    background: url(a.jpg) no-repeat center center; /* Center the image */
     background-size: cover; /* Cover the entire area */
     background-attachment: fixed; /* Keep the background fixed */
     -webkit-background-clip: text; /* Clip background to text */
